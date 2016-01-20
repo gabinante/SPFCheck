@@ -5,6 +5,6 @@ customers which failed validation.
 
 If you send a bunch of email using SPF, this is useful because it gives you some agency in protecting your IP reputation. Otherwise you rely solely upon other IT/Network teams to not mess things up.
 
-You’ll need to edit the IP addresses hard-coded in the script and then create a CSV (mysql INTO OUTFILE or whatever).
+You’ll need to edit the IP addresses hard-coded in the script and then create a CSV (mysql INTO OUTFILE or whatever). An example CSV file is included in the repository.
 
 This project uses PySPF to do record validation. You can find the latest version of PySPF here: https://pypi.python.org/pypi/pyspf/
