@@ -8,3 +8,4 @@ If you send a bunch of email using SPF, this is useful because it gives you some
 You’ll need to edit the IP addresses hard-coded in the script and then create a CSV (mysql INTO OUTFILE or whatever). An example CSV file is included in the repository.
 
 This project uses PySPF to do record validation. You can find the latest version of PySPF here: https://pypi.python.org/pypi/pyspf/
+Notably, PySPF requires the pydns and ipaddr modules, which you can install via pip.
